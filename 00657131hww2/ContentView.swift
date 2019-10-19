@@ -10,7 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        VStack{
+        Image("capoo")
+        Spacer()
+        Text("參考資料")
+            .font(.largeTitle)
+            .fontWeight(.bold)
+            .foregroundColor(.blue)
+        Text("愛料理網站")
+            
+            
+            
+        }
     }
 }
 
